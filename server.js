@@ -1,7 +1,6 @@
 const bodyParser = require('body-parser');
 var express = require('express');
 require('dotenv').config()
-var mysql = require('mysql');
 var app = express();
 var customerRoutes = require('./app/routes/customerRoutes');
 
