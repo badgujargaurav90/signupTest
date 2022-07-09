@@ -7,12 +7,7 @@ var conn = mysql.createConnection({
     user: process.env.dbusername,
     password: process.env.dbpassword
 });
-// var conn = mysql.createConnection({
-//   host: 'localhost', 
-//   user: 'root',      
-//   password: '',     
-//   database: 'nodeapp'
-// }); 
+
 conn.connect(function(err) {
   if (err) throw err;
   console.log('Database is connected successfully !');
